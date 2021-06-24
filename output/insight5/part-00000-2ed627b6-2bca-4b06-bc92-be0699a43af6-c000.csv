@@ -1,0 +1,7 @@
+dropoff_borough,number_of_dropoffs,average_trip_distance,average_total_fare
+Queens,585370,-1.6,32.28
+EWR,14950,16.89,91.94
+Brooklyn,645450,52.5,30.86
+Staten Island,2507,19.14,75.83
+Manhattan,10948064,10.47,13.18
+Bronx,66777,8.98,31.99
