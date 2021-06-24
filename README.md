@@ -8,7 +8,7 @@ It is present in ~/source directory of this repository
 It is present in ~/output directory of this repository
 
 # Problem Statement
-Let's gain some insight from a medium-biggish dataset. We will be looking at New York taxi data that are sourced from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Let's gain some insight from a medium-biggish dataset. We will be looking at New York taxi data that are sourced from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page.
 Let's take 2 months data(converted as parquet) for this activity. 
 
 
