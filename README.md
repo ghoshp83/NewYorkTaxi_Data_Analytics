@@ -73,3 +73,24 @@ Activities
 12. Total number of dropoffs, average total cost and average distance in each borough. Write the output as a single csv with headers. The resulting output should have 4 columns:     ```borough```, ```number_of_dropoffs```, ```average_total_fare``` and ```average_trip_distance```.
 13. For each pickup zone calculate the top 5 dropoff zones ranked by number of trips. Write output as a single csv with headers. The resulting output should have 4 columns:         ```pickup_zone```, ```dropoff_zone```, ```number_of_dropoffs``` and ```rank```.
 14. Calculate the number of trips for each date -> pickup hour, (using ```tpep_pickup_datetime```), then calculate the average number of trips by hour of day. The resulting         output should have 2 columns: ```hour_of_day``` and ```average_trips```.
+
+
+Execution
+---------------------
+Local Mode : 
+<SPARK_HOME>/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g <location_of_jar_file>/OpenSignal-1.0-1.jar <location_of_the_source_data>. 
+Example: ~/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g ~/jars/OpenSignal-1.0-1.jar ~/source
+
+Environment
+---------------------
+Spark 3.1.2
+Scala 2.12
+Java 1.8
+
+Main Class
+---------------------
+com.opensignal.task.OpenSignalTask
+
+Approach
+---------------------
+Spark SQL DataFrame API using Scala
