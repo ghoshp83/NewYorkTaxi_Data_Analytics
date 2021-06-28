@@ -1,4 +1,4 @@
-package com.opensignal.task
+package com.newyorktaxi.task
 
 import org.specs._
 import org.specs.runner.{ConsoleRunner, JUnit4}

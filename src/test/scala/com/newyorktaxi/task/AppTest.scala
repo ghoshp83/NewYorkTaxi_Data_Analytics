@@ -1,4 +1,4 @@
-package com.opensignal.task
+package com.newyorktaxi.task
 
 import org.junit._
 import Assert._

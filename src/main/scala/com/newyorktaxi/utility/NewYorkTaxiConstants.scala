@@ -1,6 +1,6 @@
-package com.opensignal.utility
+package com.newyorktaxi.utility
 
-object OpenSignalConstants {
+object NewYorkTaxiConstants {
     val tpep_pickup_datetime_colName = "tpep_pickup_datetime"
     val dateFormat = "yyyy-MM-dd"
     val taxi_id_colName = "taxi_id"
