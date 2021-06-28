@@ -78,8 +78,13 @@ Activities
 Execution
 ---------------------
 Local Mode : 
+```
 <SPARK_HOME>/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g <location_of_jar_file>/OpenSignal-1.0-1.jar <location_of_the_source_data>. 
-Example: ~/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g ~/jars/OpenSignal-1.0-1.jar ~/source
+```
+Example: 
+```
+~/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g ~/jars/OpenSignal-1.0-1.jar ~/source
+```
 
 Environment
 ---------------------
