@@ -79,11 +79,11 @@ Execution
 ---------------------
 Local Mode : 
 ```
-<SPARK_HOME>/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g <location_of_jar_file>/OpenSignal-1.0-1.jar <location_of_the_source_data>. 
+<SPARK_HOME>/bin/spark-submit --class com.newyorktaxi.task.NewYorkTaxiTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g <location_of_jar_file>/NewYorkTaxiAnalytics-1.0-1.jar <location_of_the_source_data>. 
 ```
 Example: 
 ```
-~/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --class com.opensignal.task.OpenSignalTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g ~/jars/OpenSignal-1.0-1.jar ~/source
+~/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --class com.newyorktaxi.task.NewYorkTaxiTask --master local[8] --conf spark.driver.host=127.0.0.1 --driver-memory 8g ~/jars/NewYorkTaxiAnalytics-1.0-1.jar ~/source
 ```
 
 Environment
@@ -94,7 +94,7 @@ Java 1.8
 
 Main Class
 ---------------------
-com.opensignal.task.OpenSignalTask
+com.newyorktaxi.task.NewYorkTaxiTask
 
 Approach
 ---------------------
